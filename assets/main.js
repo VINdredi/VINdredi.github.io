@@ -50,11 +50,11 @@ var Sr=(B,P)=>()=>(P||B((P={exports:{}}).exports,P),P.exports);var $r=Sr((rs,_i)
             <li class="page-item ${q===E?"disabled":""}">
                 <a class="page-link" href="#" data-blog-page="${E}">Last »</a>
             </li>
-        `,document.querySelectorAll("[data-blog-page]").forEach(W=>{W.addEventListener("click",function(j){j.preventDefault();const C=parseInt(this.getAttribute("data-blog-page"));C>=1&&C<=E&&(q=C,ee(q))})})}Ee(q);const I=[{date:"May 12, 2023",title:"Start Bootstrap releases Bootstrap 5 updates for templates and themes",link:"#!"},{date:"May 5, 2023",title:"Bootstrap 5 has officially landed",link:"#!"},{date:"Apr 21, 2023",title:"This is another news article headline, but this one is a little bit longer",link:"#!"}],z=3;let F=1;function ee(p){const E=(p-1)*z,W=E+z,j=I.slice(E,W),C=document.getElementById("event-list");C&&(C.innerHTML="",j.forEach(Q=>{const Je=`
+        `,document.querySelectorAll("[data-blog-page]").forEach(W=>{W.addEventListener("click",function(j){j.preventDefault();const C=parseInt(this.getAttribute("data-blog-page"));C>=1&&C<=E&&(q=C,ee(q))})})}Ee(q);const I=[{date_en:"May 12, 2023",title_en:"Start Bootstrap releases Bootstrap 5 updates for templates and themes",link:"#!"},{date_en:"May 5, 2023",title_en:"Bootstrap 5 has officially landed",link:"#!"},{date_en:"Apr 21, 2023",title_en:"This is another news article headline, but this one is a little bit longer",link:"#!"}],z=3;let F=1;function ee(p){const E=(p-1)*z,W=E+z,j=I.slice(E,W),C=document.getElementById("event-list");C&&(C.innerHTML="",j.forEach(Q=>{const Je=`
             <div class="mb-5">
-                <div class="small text-muted">${Q.date}</div>
+                <div class="small text-muted">${Q.date_en}</div>
                 <a class="link-dark" href="${Q.link}">
-                    <h3>${Q.title}</h3>
+                    <h3>${Q.title_en}</h3>
                 </a>
             </div>
         `;C.innerHTML+=Je}),ut())}function ut(){const p=document.getElementById("event-pagination");if(!p)return;const E=Math.ceil(I.length/z);p.innerHTML="",p.innerHTML+=`
