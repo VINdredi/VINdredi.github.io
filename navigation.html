@@ -1,26 +1,38 @@
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container px-5">
-                <a class="navbar-brand" href="index.html">VINdredi</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation"><span
-                        class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.html#contactcard">Contact</a></li>
-                        <!--li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li-->
-                        <!--li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
-                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                <li><a class="dropdown-item" href="blog-home.html">Blog Home</a></li>
-                                <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
-                            </ul>
-                        </li-->
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container px-5">
+        <a class="navbar-brand" href="index.html">VINdredi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <!-- DE nav -->
+                <li class="nav-item content-de"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item content-de"><a class="nav-link" href="index.html#about">Über VINdredi</a></li>
+                <li class="nav-item content-de"><a class="nav-link" href="index.html#contactcard">Kontakt</a></li>
+                <!-- EN nav -->
+                <li class="nav-item content-en" style="display: none;"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item content-en" style="display: none;"><a class="nav-link" href="index.html#about">About</a></li>
+                <li class="nav-item content-en" style="display: none;"><a class="nav-link" href="index.html#contactcard">Contact</a></li>
+                <!-- FR nav -->
+                <li class="nav-item content-fr" style="display: none;"><a class="nav-link" href="index.html">Accueil</a></li>         
+                <li class="nav-item content-en" style="display: none;"><a class="nav-link" href="index.html#about">À propos</a></li>
+                <li class="nav-item content-fr" style="display: none;"><a class="nav-link" href="index.html#contactcard">Contact</a></li>
+                                
+                <!-- Language Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownLanguage" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <!-- Using Bootstrap Icons -->
+                        <i class="bi bi-globe"></i></a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownLanguage">
+                        <li><a class="dropdown-item" href="#" onclick="changeLanguage('de')">DE</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="changeLanguage('en')">EN</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="changeLanguage('fr')">FR</a></li>
                     </ul>
-                </div>
-            </div>
-        </nav>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
