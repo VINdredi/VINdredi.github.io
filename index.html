@@ -52,7 +52,7 @@
                         <li class="nav-item content-de"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item content-de"><a class="nav-link" href="index.html#about">Über VINdredi</a>
                         </li>
-                        <li class="nav-item content-de"><a class="nav-link" href="index.html#contactcard">Kontakt</a>
+                        <li class="nav-item content-de"><a class="nav-link" href="index.html#contact">Kontakt</a>
                         </li>
                         <!-- EN nav -->
                         <li class="nav-item content-en" style="display: none;"><a class="nav-link"
@@ -60,14 +60,14 @@
                         <li class="nav-item content-en" style="display: none;"><a class="nav-link"
                                 href="index.html#about">About</a></li>
                         <li class="nav-item content-en" style="display: none;"><a class="nav-link"
-                                href="index.html#contactcard">Contact</a></li>
+                                href="index.html#contact">Contact</a></li>
                         <!-- FR nav -->
                         <li class="nav-item content-fr" style="display: none;"><a class="nav-link"
                                 href="index.html">Accueil</a></li>
                         <li class="nav-item content-fr" style="display: none;"><a class="nav-link"
                                 href="index.html#about">À propos</a></li>
                         <li class="nav-item content-fr" style="display: none;"><a class="nav-link"
-                                href="index.html#contactcard">Contact</a></li>
+                                href="index.html#contact">Contact</a></li>
 
                         <!-- Language Dropdown -->
                         <li class="nav-item dropdown">
@@ -223,7 +223,7 @@
         <section class="py-5 bg-light" id="events">
             <div class="container px-5">
                 <div class="row gx-5">
-                    <div class="col-xl-8">
+                    <div class="col-xl-12">
                         <h2 class="fw-bolder fs-5 mb-4">Events</h2>
                         <div id="event-list"></div>
                         <ul id="event-pagination" class="pagination mt-4 mb-4"></ul>
@@ -234,7 +234,7 @@
                     </a>
                 </div-->
                     </div>
-                    <div class="col-xl-4 mt-4" id="contactcard">
+                    <!--div class="col-xl-4 mt-4" id="contactcard">
                         <div class="card border-0">
                             <div class="card-body p-4">
                                 <div class="col h-100 text-center">
@@ -247,7 +247,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div-->
                     <!--div class="col-xl-4">
                 <div class="card border-0 h-100">
                     <div class="card-body p-4">
@@ -274,7 +274,7 @@
         </section>
 
         <!-- Blog preview section-->
-        <section class="py-5" id="blogPreview">
+        <!--section class="py-5" id="blogPreview">
             <div class="container px-5 my-5">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6">
@@ -284,32 +284,85 @@
                                 ein Gespür dafür zu bekommen, wie das aussehen könnte.</p>
                         </div>
                     </div>
-                    <div id="blog-preview-container" class="row gx-5">
-                        <!-- Cards will be inserted here dynamically -->
-                    </div>
-                    <!-- Pagination Controls -->
-                    <nav aria-label="BlogPreview Pagination">
-                        <ul class="pagination justify-content-center mt-4" id="pagination">
-                            <!-- Pagination buttons will be generated dynamically -->
-                        </ul>
+                    <div id="blog-preview-container" class="row gx-5"-->
+        <!-- Cards will be inserted here dynamically -->
+        <!--/div-->
+        <!-- Pagination Controls -->
+        <!--nav aria-label="BlogPreview Pagination">
+                        <ul class="pagination justify-content-center mt-4" id="pagination"-->
+        <!-- Pagination buttons will be generated dynamically -->
+        <!--/ul>
                     </nav>
                 </div>
             </div>
-        </section>
+        </section-->
         <!-- Contact cards-->
-        <!--section class="my-5" id="contact">
+        <section class="my-5" id="contact">
             <div class="col h-100 text-center">
-                <div class="feature bg-primary text-white bg-gradient rounded-3 mb-3"><i class="bi bi-envelope"></i>
+                <div class="feature bg-secondary text-white bg-gradient rounded-3 mb-3"><i class="bi bi-envelope"></i>
                 </div>
-                <div class="h5">Email us</div>
-                <p class="text-muted mb-0 content-en">Mon - Sat 8 a.m. to 5 p.m.: (555) 892-9403.
+                <div class="h5">E-mail</div>
+                <p class="text-muted mb-0">vindredi.saarbruecken@gmail.com
                 </p>
             </div>
-        </section-->
+        </section>
 
     </main>
-    <!-- Footer will be inserted here -->
-    <div id="footer-container"></div>
+    <!-- Footer-->
+    <footer class="bg-dark py-4 mt-auto">
+        <div class="container px-5">
+            <!-- Footer DE -->
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row content-de">
+                <div class="col-auto">
+                    <div class="small m-0 text-white">&copy; VINdredi 2025</div>
+                    <div class="small text-muted mt-1">VINdredi setzt sich für den
+                        verantwortungsvollen Genuss von Wein ein. Bitte trinkt
+                        maßvoll.</div>
+                </div>
+                <div class="col-auto">
+                    <a class="link-light small" href="imprint.html">Impressum</a>
+                    <span class="text-white mx-1">&middot;</span>
+                    <a class="link-light small" href="privacy.html">Datenschutz</a>
+                    <span class="text-white mx-1">&middot;</span>
+                    <a class="link-light small" href="index.html#contact">Kontakt</a>
+                </div>
+            </div>
+            <!-- Footer EN -->
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row content-en"
+                style="display: none;">
+                <div class="col-auto">
+                    <div class="small m-0 text-white">&copy; VINdredi 2025</div>
+                    <div class="small text-muted mt-1">VINdredi is committed to the responsible consumption of wine.
+                        Please
+                        drink in moderation.</div>
+                </div>
+                <div class="col-auto">
+                    <a class="link-light small" href="imprint.html">Imprint</a>
+                    <span class="text-white mx-1">&middot;</span>
+                    <a class="link-light small" href="privacy.html">Data privacy</a>
+                    <span class="text-white mx-1">&middot;</span>
+                    <a class="link-light small" href="index.html#contact">Contact</a>
+                </div>
+            </div>
+            <!-- Footer FR -->
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row content-fr"
+                style="display: none;">
+                <div class="col-auto">
+                    <div class="small m-0 text-white">&copy; VINdredi 2025</div>
+                    <div class="small text-muted mt-1">VINdredi s'engage pour une consommation responsable du vin.
+                        Veuillez
+                        boire avec modération.</div>
+                </div>
+                <div class="col-auto">
+                    <a class="link-light small" href="imprint.html">Mentions légales</a>
+                    <span class="text-white mx-1">&middot;</span>
+                    <a class="link-light small" href="privacy.html">Protection des données</a>
+                    <span class="text-white mx-1">&middot;</span>
+                    <a class="link-light small" href="index.html#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Include css and js from main.js -->
 </body>
 
