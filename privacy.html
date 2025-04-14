@@ -32,8 +32,55 @@
                 </button>
             </div>
         </div>
-        <!-- Navigation -->
-        <div id="navigation-container"></div>
+
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html">VINdredi</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <!-- DE nav -->
+                        <li class="nav-item content-de"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item content-de"><a class="nav-link" href="index.html#about">Über VINdredi</a>
+                        </li>
+                        <li class="nav-item content-de"><a class="nav-link" href="index.html#contactcard">Kontakt</a>
+                        </li>
+                        <!-- EN nav -->
+                        <li class="nav-item content-en" style="display: none;"><a class="nav-link"
+                                href="index.html">Home</a></li>
+                        <li class="nav-item content-en" style="display: none;"><a class="nav-link"
+                                href="index.html#about">About</a></li>
+                        <li class="nav-item content-en" style="display: none;"><a class="nav-link"
+                                href="index.html#contactcard">Contact</a></li>
+                        <!-- FR nav -->
+                        <li class="nav-item content-fr" style="display: none;"><a class="nav-link"
+                                href="index.html">Accueil</a></li>
+                        <li class="nav-item content-fr" style="display: none;"><a class="nav-link"
+                                href="index.html#about">À propos</a></li>
+                        <li class="nav-item content-fr" style="display: none;"><a class="nav-link"
+                                href="index.html#contactcard">Contact</a></li>
+
+                        <!-- Language Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownLanguage" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <!-- Using Bootstrap Icons -->
+                                <i class="bi bi-globe"></i></a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownLanguage">
+                                <li><a class="dropdown-item" href="#" id="de-button">DE</a></li>
+                                <li><a class="dropdown-item" href="#" id="en-button">EN</a></li>
+                                <li><a class="dropdown-item" href="#" id="fr-button">FR</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <header class="py-5">
             <div class="container px-5">
                 <div class="row justify-content-center">
@@ -522,6 +569,6 @@
     <!-- Footer will be inserted here -->
     <div id="footer-container"></div>
     <link rel="stylesheet" href="assets/style.css" />
-    <script type="module" src="assets/main.js"></script>    
+    <script type="module" src="assets/main.js"></script>
 
 </html>
