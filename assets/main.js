@@ -54,7 +54,7 @@ var So=(R,M)=>()=>(M||R((M={exports:{}}).exports,M),M.exports);var Do=So((os,vi)
             <div class="mb-5">
                 <div class="small text-muted">${U.date_en}</div>
                 <a class="link-dark">
-                    <h3 class="small">${U.title_en}</h3>
+                    <h5">${U.title_en}</h5>
                 </a>
             </div>
         `;E.innerHTML+=Fe}),pt())}function pt(){const T=document.getElementById("event-pagination");if(!T)return;const $=Math.ceil(D.length/q);T.innerHTML="",T.innerHTML+=`
